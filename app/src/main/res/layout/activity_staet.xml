@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.exemple.kiselrv.cheker2.StaetActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="end"
+        android:layout_row="0"
+        android:text="@string/fio"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="144dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_row="2"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:gravity="center"
+        android:text="@string/text2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="@string/enter"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/enter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="enter2"
+        android:textSize="18sp"
+        android:layout_gravity="right"/>
+
+    <Button
+    android:id="@+id/exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:layout_gravity="right"
+    android:layout_row="3"
+    android:text="@string/exit"
+    android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/exit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="left"
+        android:layout_row="3"
+        android:text="@string/exit"
+        android:textSize="18sp" />
+
+</GridLayout>
+
